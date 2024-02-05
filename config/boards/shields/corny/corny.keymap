@@ -30,13 +30,13 @@
                 
 // ------------------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |                    |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// |  TAB |  1  |  2  |  3  |  4  |  5  |                    |  6  |  7  |  8  |  9  |  0  |      |
+// |  CTL |  1  |  2  |  3  |  4  |  5  |                    |  6  |  7  |  8  |  9  |  0  |      |
 // | SHFT | F1  | F2  | F3  | F4  | F5  |  boot  |  |        |  F6 | F7  | F8  | F9  | F10 |  F11 |
 //                    | GUI |     | SPC |                    | ENT |     | F12 |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                   &kp CARET &kp AMPS &kp KP_MULTIPLY &kp MINUS &kp EQUAL &kp BSPC
    &kp LCTRL &kp N1   &kp N2 &kp N3   &kp N4   &kp N5                      &kp N6    &kp N7   &kp N8          &kp N9   &kp N0   &trans
-   &kp LSHFT &alt_z   &kp F2 &kp F3   &kp F4   &kp F5    &bootloader &none &kp F6    &kp F7   &kp F8          &kp F9   &kp F10  &kp F11
+   &kp LSHFT &kp F1   &kp F2 &kp F3   &kp F4   &kp F5    &bootloader &none &kp F6    &kp F7   &kp F8          &kp F9   &kp F10  &kp F11
                              &kp LGUI &trans   &kp SPACE                   &kp RET  &trans   &kp F12
                         >;
 
